@@ -29,10 +29,10 @@ def read_excel(excel_path, sheet_name, skip_first=True):
 
     return results
 #运行脚本
-#1.pip install allure-pytest -i https://pypi.tuna.tsinghua.edu.cn/simple
-#2.pytest --alluredir=result
-#3.allure generate result -o report --clean
-#4.allure open -h 127.0.0.1 -p 10086 report
+#安装allure-pytest第三方包：1.pip install allure-pytest -i https://pypi.tuna.tsinghua.edu.cn/simple
+#运行脚本并生成结果：2.pytest --alluredir=result
+#把测试结果编译成测试报告：3.allure generate result -o report --clean
+#打开测试报告：4.allure open -h 127.0.0.1 -p 10086 report
 
 
 if __name__ == "__main__":
